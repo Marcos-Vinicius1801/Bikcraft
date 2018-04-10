@@ -1,0 +1,83 @@
+.interna_contato{
+	background: url("../img/bg-retro.jpg") no-repeat center;
+	background-size: cover;
+}
+.contato{
+	padding: 48px 0;
+}
+.form{
+	padding-right: 61px;
+}
+.form label{
+	display: block;
+ 	font-family: Georgia, "Times New Roman", serif;
+	 font-size: 18px;
+	 line-height: 30px;
+	 margin: 4px;
+}
+.form input{
+	border: 4px solid #fec63e;
+	width: 100%;
+	background: none;
+	color:#000;
+	margin-bottom: 10px;
+	padding: 7px 10px; /*Espaço interno do dentro do input*/
+	outline: none;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+
+}
+.form textarea{
+	border: 4px solid #fec63e;
+	width: 100%;
+	height: 120px;
+	background: none;
+	color:#000;
+	margin-bottom: 10px;
+	padding: 7px 10px; /*Espaço interno do dentro do input*/
+	outline: none;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+.form .btn{
+		border: 3px solid #fec63e;
+	padding: 10px 30px;
+	color: #fec63e;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	background: none;
+}
+.contato_dados h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#fec63e;
+	letter-spacing: .1em;
+}
+.contato_dados span{
+	display: block;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	margin-top: 12px;
+}
+.contato_dados span:nth-of-type(even){
+	margin-bottom: 30px;
+}
+
+.contato_dados p{
+	margin: 5px 0;
+
+	display: block;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 30px;
+}
+.dados_email{
+	margin-bottom: 20px;
+}
