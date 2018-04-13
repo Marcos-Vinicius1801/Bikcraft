@@ -1,9 +1,18 @@
+//Váriaveis e Mixins
+@import 'variaveis-e-mixins';
+
+//Estilos Gerais
 @import 'reset';
 @import 'normalize';
 @import 'grid';
 @import 'geral';
+
+//Páginas
 @import 'produtos';
 @import 'sobre';
 @import 'portfolio';
 @import 'contato';
+
+//Responsivo
 @import 'responsivo';
+
