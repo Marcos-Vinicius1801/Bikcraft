@@ -15,8 +15,7 @@ body {
 }
 
 p {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 14px;
+  @include tipo-2(14);
   line-height: 20px;
 }
 
@@ -34,7 +33,7 @@ img {
   line-height: 25px;
   margin-bottom: 10px;
   display: block;
-  font-family: Georgia, "Times New Roman", serif;
+  @include tipo-2(18);
 }
 
 #form-send {
@@ -385,9 +384,8 @@ img {
 }
 
 .footer_contato ul li {
-  font-size: 14px;
   line-height: 20px;
-  font-family: Georgia, "Times New Roman", serif;
+	@include tipo-2(14);
 }
 
 .footer_redes ul li {

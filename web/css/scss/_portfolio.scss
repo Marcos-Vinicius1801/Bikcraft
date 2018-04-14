@@ -17,11 +17,9 @@
 
 .quote_clientes p {
   text-align: center;
-  font-size: 18px;
-  line-height: 25px;
   font-style: italic;
-  font-family: Georgia, "Times New Roman", serif;
   margin-bottom: 20px;
+	@include tipo-2(18);
 }
 
 .quote_clientes cite {

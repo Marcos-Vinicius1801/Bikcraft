@@ -21,9 +21,8 @@
 }
 
 .missao_sobre ul li {
-  font-size: 18px;
+	@include tipo-2(18s);  
   line-height: 30px;
-  font-family: Georgia, "Times New Roman", serif;
 }
 
 .foto-equipe {

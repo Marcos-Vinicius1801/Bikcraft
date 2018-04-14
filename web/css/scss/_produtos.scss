@@ -67,10 +67,8 @@
 }
 
 .produto_info ul li {
-  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: 18px;
-  line-height: 25px;
+  @include tipo-1(18);
   font-weight: bold;
   background: $amarelo;
   float: left;
@@ -95,8 +93,7 @@
 .form label {
   display: block;
   color: $branco;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
+  @include tipo-2(18);
   line-height: 30px;
   margin: 4px;
 }
@@ -134,8 +131,7 @@
 }
 
 .orcamento_dados h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  @include tipo-1(18);
   line-height: 30px;
   font-weight: bold;
   text-transform: uppercase;
@@ -154,8 +150,7 @@
 }
 
 .orcamento_dados ul li {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 14px;
+  @include tipo-2(14);
   padding: 10px 15px;
 }
 
@@ -173,8 +168,7 @@
   padding: 7px 10px;
   /*Espaço interno do dentro do input*/
   outline: none;
-  font-size: 14px;
-  font-family: Georgia, "Times New Roman", serif;
+  @include tipo-2(14);
 }
 
 .form textarea {
@@ -187,8 +181,7 @@
   padding: 7px 10px;
   /*Espaço interno do dentro do input*/
   outline: none;
-  font-size: 14px;
-  font-family: Georgia, "Times New Roman", serif;
+	@include tipo-2(14);
 }
 
 .form .btn {
@@ -216,10 +209,8 @@
 
 .quote_clientes p {
   text-align: center;
-  font-size: 18px;
-  line-height: 25px;
   font-style: italic;
-  font-family: Georgia, "Times New Roman", serif;
+	@include tipo-2(18);
   margin-bottom: 20px;
 }
 
@@ -302,8 +293,7 @@
 
 .form label {
   display: block;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
+  @include tipo-2(18);
   line-height: 30px;
   margin: 4px;
 }
@@ -317,8 +307,7 @@
   padding: 7px 10px;
   /*Espaço interno do dentro do input*/
   outline: none;
-  font-size: 14px;
-  font-family: Georgia, "Times New Roman", serif;
+  @include tipo-2(14);
 }
 
 .form textarea {
@@ -331,8 +320,7 @@
   padding: 7px 10px;
   /*Espaço interno do dentro do input*/
   outline: none;
-  font-size: 14px;
-  font-family: Georgia, "Times New Roman", serif;
+	@include tipo-2(14);
 }
 
 .form .btn {
@@ -348,9 +336,8 @@
 }
 
 .contato_dados h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 30px;
+  @include tipo-1(18);
+	line-height: 30px;
   font-weight: bold;
   text-transform: uppercase;
   color: $amarelo;
@@ -359,8 +346,7 @@
 
 .contato_dados span {
   display: block;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+	@include tipo-1(18);
   line-height: 30px;
   margin-top: 12px;
 }
@@ -372,8 +358,7 @@
 .contato_dados p {
   margin: 5px 0;
   display: block;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  @include tipo-1(18);
   line-height: 30px;
 }
 
